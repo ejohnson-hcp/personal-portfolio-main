@@ -15,7 +15,7 @@ const WordCloud = () => {
     'C#',
     'Java',
     'Python',
-    'C++',
+    'Swift',
     '.NET',
     'REST APIs',
     'SQL Server',
@@ -23,6 +23,7 @@ const WordCloud = () => {
     'GitHub',
     'VS Code',
     'Azure',
+    'Xcode',
   ]
   const options = {
     radius: 300,

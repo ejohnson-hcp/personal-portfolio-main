@@ -1,3 +1,14 @@
+.about-page {
+  .text-zone a.about-page__link {
+    color: #7dd3fc;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover {
+      color: #bae6fd;
+    }
+  }
+}
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;

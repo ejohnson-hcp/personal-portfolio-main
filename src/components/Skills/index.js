@@ -29,13 +29,13 @@ const Skills = () => {
             <br />
           </h1>
           <p>
-            I love to explore new tools and technologies when building applications, ensuring I'm 
-            proficient with each tool before moving to the next. Currently working with modern 
-            technologies including React, TypeScript, .NET, SQL Server, and Azure.
+            I work across the stack—from React and TypeScript on the front end to .NET and REST APIs 
+            on the back end, plus Swift and SwiftUI for native iOS. I use SQL Server for data, 
+            Git/GitHub for version control, and Azure and Xcode for deployment and mobile development.
           </p>
           <p>
-            Always eager to work with the latest technologies on challenging and diverse projects 
-            that push the boundaries of what's possible in web and mobile development.
+            I'm always eager to take on challenging projects that push the boundaries of what's 
+            possible in web and mobile development.
           </p>
         </div>
 

@@ -11,8 +11,8 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ' Ethan'.split('')
-  const jobArray = 'Programmer'.split('')
-  const interestArray = 'Developer'.split('')
+  const jobArray = 'Software Developer'.split('')
+  const interestArray = ''.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -54,7 +54,7 @@ const Home = () => {
             />
           </h1>
           <h2>
-            Full Stack Developer / Programmer
+            Software Developer · Web &amp; Mobile
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

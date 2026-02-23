@@ -104,13 +104,14 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am always interested in new opportunities - especially ambitious or large
-            projects. However if you have a question or request, feel
-            free to contact me at 
+            I am always interested in new opportunities—especially ambitious or large
+            projects. If you have a question or request, feel free to reach out:
             <br />
-            EthanJohnson2098@outlook.com
+            <a href="mailto:ethanjohnson2098@outlook.com" className="contact-page__link">ethanjohnson2098@outlook.com</a>
             <br />
-            (773) 733-6728
+            <a href="tel:+17737336728" className="contact-page__link">(773) 733-6728</a>
+            <br />
+            <a href="https://www.linkedin.com/in/ejohnson2098" target="_blank" rel="noreferrer" className="contact-page__link">LinkedIn</a>
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -152,11 +153,13 @@ const Contact = () => {
         <div className="info-map">
           Ethan Johnson
           <br />
-          Chicago <br />
-          Illinois <br />
-          Can meet for lunch
-          EthanJohnson2098@outlook.com
+          Chicago, IL
           <br />
+          ethanjohnson2098@outlook.com
+          <br />
+          (773) 733-6728
+          <br />
+          <a href="https://www.linkedin.com/in/ejohnson2098" target="_blank" rel="noreferrer" className="contact-page__link">linkedin.com/in/ejohnson2098</a>
         </div>
         <div className="map-wrap">
           <MapContainer center={[41.8745, -87.6247]} zoom={13}>

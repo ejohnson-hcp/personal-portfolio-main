@@ -1,3 +1,15 @@
+.contact-page {
+  .text-zone a.contact-page__link,
+  .info-map a.contact-page__link {
+    color: #7dd3fc;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover {
+      color: #bae6fd;
+    }
+  }
+}
+
 .contact-form {
   width: 100%;
   margin-top: 20px;
